@@ -1,0 +1,31 @@
+.footer {
+    background: #6278F7;
+    color: #FFF;
+    padding: 80px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.footer p {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 769px) {
+    .footer {
+        display:block;
+    }
+    
+    .footer section {
+        text-align: center;
+    }
+    
+    .footer p {
+        font-size: 25px; 
+    }
+}
